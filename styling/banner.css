@@ -1,0 +1,35 @@
+.banner{
+    height: 800px;
+    margin-top: 85px;
+    background-image: url(/Assets/images/bw-mountains.jpg);
+     background-size: cover;
+  }
+  
+  .banner img{
+    width: 200px;
+  }
+  
+  .banner-content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    align-items:center;
+    letter-spacing: 10px;
+  }
+  
+  .banner-content h1{
+
+    padding-top: 10px;
+    color: #F44369;
+  }
+  
+  .banner-content p{
+    color: white;
+    /* font-size: 1.3rem; */
+    padding: 10px;
+    background-image: url(/Assets/images/tape.svg);
+    background-size:120%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: padding-box;
+  }

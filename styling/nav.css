@@ -1,0 +1,25 @@
+.navbar{
+    background-image: linear-gradient(to right, #F44369, #3E3B92);
+  }
+  
+  .navbar a{
+    color: white;
+  }
+  
+  .nav-item:hover{
+    transform: scale(1.3);
+    color: white;
+  }
+  
+  nav img{
+    width: 60px;
+  }
+
+  @media (max-width: 575px){
+
+    .nav-item:hover{
+      color: grey;
+      transform:none;
+    }
+    
+    }
