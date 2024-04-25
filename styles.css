@@ -25,3 +25,21 @@ footer {
 footer img{
   margin: 15px 0px;
 }
+
+.section h1{
+  /* background: -webkit-linear-gradient( #F44369, #3E3B92);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  color: white;
+  background-image: url(/Assets/images/tape.svg);
+  background-repeat: no-repeat;
+    background-size: cover;
+    padding: 35px;
+    display: inline-block;
+}
+
+@media (max-width: 788px){
+  #cv-nav{
+    flex-direction: column;
+  }
+}
