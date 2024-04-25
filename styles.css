@@ -5,6 +5,23 @@ body{
   font-family: "Montserrat", sans-serif;
 }
 
+.section{
+  padding-top: 4vh;
+}
 
+.about img{
+  width: 400px;;
+}
 
+footer {
+  bottom: 0;
+  width: 100%;
+  background-image: linear-gradient(to right, #F44369, #3E3B92);
+  padding: 20px 0;
+  color: white;
+  margin-top: 100px;
+}
 
+footer img{
+  margin: 15px 0px;
+}
