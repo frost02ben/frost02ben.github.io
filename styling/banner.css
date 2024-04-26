@@ -3,6 +3,7 @@
     margin-top: 85px;
     background-image: url(/Assets/images/bw-mountains.jpg);
      background-size: cover;
+     background-attachment: fixed;
   }
   
   .banner img{
