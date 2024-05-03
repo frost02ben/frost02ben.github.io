@@ -1,5 +1,7 @@
 .navbar{
-    background-image: linear-gradient(to right, #F44369, #3E3B92);
+/*     background-image: linear-gradient(to right, #F44369, #3E3B92); */
+    background-image: linear-gradient(to right, #1EFFBC, #2A4C7E);
+    
   }
   
   .navbar a{
