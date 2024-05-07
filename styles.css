@@ -6,7 +6,7 @@ body{
 }
 
 .section{
-  padding-top: 4vh;
+  margin-bottom: 10vh;
 }
 
 .about img{
@@ -16,10 +16,11 @@ body{
 footer {
   bottom: 0;
   width: 100%;
-  background-image: linear-gradient(to right, #F44369, #3E3B92);
+  background-color: #2b2b2b;
   padding: 20px 0;
   color: white;
   margin-top: 100px;
+  backdrop-filter: opacity(0.9);
 }
 
 footer img{
@@ -27,15 +28,64 @@ footer img{
 }
 
 .section h1{
-  /* background: -webkit-linear-gradient( #F44369, #3E3B92);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
-  color: white;
-  background-image: url(/Assets/images/tape.svg);
-  background-repeat: no-repeat;
-    background-size: cover;
-    padding: 35px;
-    display: inline-block;
+  display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    align-items:center;
+    letter-spacing: 10px;
+}
+
+#about{
+  text-align: center;
+}
+
+#home-quote{
+  background-image: url(/Assets/images/bw-bridge.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 50vh;
+  padding: 10vh 16vw;
+}
+
+#home-quote p{
+  color: black;
+  background-color: rgba(255, 255, 255, .2);
+  font-size: 2rem;
+  backdrop-filter: blur(10px);
+  font-family:'Courier New', Courier, monospace;
+}
+
+#home-quote h1{
+  color: #1effbc;
+  backdrop-filter: blur(10px);
+  font-weight: 300;
+}
+
+.linebreak{
+  display: flex;
+  width: 3vw;
+  margin: 40px auto;
+  height: 10px;
+  background-color: #1effbc;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#cv-header{
+  display: flex;
+  margin-bottom: 3vh;
+}
+
+.cv-header-item{
+  font-size: 1.5em;
+  margin: 5px 10px 0px 0px;
+  padding: 10px;
+}
+
+
+.cv-header-item.active {
+  border-bottom: 3px solid #1effbc;
 }
 
 @media (max-width: 788px){

@@ -21,16 +21,17 @@
   .banner-content h1{
 
     padding-top: 10px;
-    color: #F44369;
+    color: #2b2b2b;
   }
   
   .banner-content p{
-    color: white;
-    /* font-size: 1.3rem; */
+    color: #1effbc;
+    font-size: 1.3rem;
     padding: 10px;
-    background-image: url(/Assets/images/tape.svg);
+    backdrop-filter: blur(10px);
+    /* background-image: url(/Assets/images/tape.svg);
     background-size:120%;
     background-repeat: no-repeat;
     background-position: center;
-    background-clip: padding-box;
+    background-clip: padding-box; */
   }
