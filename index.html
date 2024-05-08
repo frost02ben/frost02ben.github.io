@@ -40,9 +40,10 @@
         
 <div class="container-fluid banner">
   <div class="banner-content">
-    <img src="Assets/images/Bf-logo-greenblue.svg" alt="BF logo" data-aos="flip-up" data-aos-delay="600">
+    <img src="Assets/images/Bf-logo-gb-nb.svg" alt="BF logo" data-aos="flip-up" data-aos-delay="600">
     <h1 data-aos="fade-left" data-aos-delay="1200">BF MEDIA</h1>
     <p data-aos="fade-right" data-aos-delay="1600">PORTFOLIO</p>
+    <button id="cv-button" onclick="downloadPDF()" data-aos="fade-left" data-aos-delay="5000" style="position: absolute; margin: 60vh auto 5px auto;">Download CV</button>
   </div>
 </div>
 
@@ -54,14 +55,16 @@
     <div class="col about-text">
       <h1 data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">About Me</h1>
       <div class="linebreak" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000"></div>
-      <p data-aos="fade-left" data-aos-delay="1000" data-aos-duration="2000">What's up. My name is Ben Frost, and I am a Computer Science student, specialising in spatial computing.</p>
-      <p data-aos="fade-right" data-aos-delay="1000" data-aos-duration="2000">I like to focus on frontend development and design, while also working in 3D environments and photo / video editing.</p>
+      <p data-aos="fade-left" data-aos-delay="1000" data-aos-duration="2000">My name is Ben Frost, and I am a Computer Science student, specialising in spatial computing. <br> 
+        I like to focus on frontend development and design, while also working in 3D environments and photo / video editing.</p>
+      <p data-aos="fade-right" data-aos-delay="1000" data-aos-duration="2000">I am currently studying in TUS, on course to complete my Bachelors of Science in Immersive Digital Media & Spatial computing in 2025.</p>
+      <p data-aos="fade-left" data-aos-delay="1000" data-aos-duration="2000">Outside of work and studies, I enjoy watching and playing soccer, running, and learning French.</p>
     </div>
   </div>
 </div>
 
-<div class="container-fluid" id="home-quote">
-      <p data-aos="zoom-in">"It needs time. Nobody wants to hear it, but that's the truth."</p>
+<div class="container-fluid section" id="home-quote">
+      <p data-aos="zoom-in">"It needs time. Nobody wants to hear it, but that's the truth: if you want to have success in the future, you have to be ready to work now."</p>
       <h1 data-aos="flip-up" data-aos-delay="500"> - Jurgen Klopp</h1>
 </div>
 
@@ -72,26 +75,54 @@
     <div id="cv-header">
       <h2 class="cv-header-item active" type="button" data-bs-target="#cv" data-bs-slide-to="0" data-aos="fade-right" data-aos-delay="1500">Experience</h2>
       <h2 class="cv-header-item" type="button" data-bs-target="#cv" data-bs-slide-to="1" data-aos="fade-right" data-aos-delay="1000">Skills</h2>
-      <h2 class="cv-header-item" type="button" data-bs-target="#cv" data-bs-slide-to="2" data-aos="fade-right" data-aos-delay="500">Contact</h2>
+      <h2 class="cv-header-item" type="button" data-bs-target="#cv" data-bs-slide-to="2" data-aos="fade-right" data-aos-delay="500">Info</h2>
     </div>
 
     <div class="carousel-inner" data-aos="fade-left" data-aos-delay="2000">
       <div class="carousel-item active">
-        <h3>Tab 1</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel sequi fugiat nemo. Tenetur totam sint nemo illum molestiae nam nihil.</p>
+        <h3>Fleming Medical : Jan 2024 - Present</h3>
+        <p> - Internship undertaken, practicing frontend development and other spatial computing topics such as 3D modelling, photo editing and design.</p>
+        <br>
+        <h3>101 O'Connell Street : Sep 2021 - Jan 2024</h3>
+        <p> - Worked in a security role while in college.</p>
+        <br>
+        <h3>Dunnes Stores : Jun 2023 - Aug 2023</h3>
+        <p> - Summer job working on the shop floor.</p>
       </div>
       <div class="carousel-item">
-        <h3>Tab 2</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus consectetur aliquid deleniti odio blanditiis optio libero rem<br>
-           obcaecati debitis autem aspernatur placeat adipisci, vel illo, minus aliquam dolorem minima soluta? Natus dicta rerum non dolorem adipisci consequuntur aliquid esse error ad, et at amet incidunt maxime ullam in! Suscipit, qui.</p>
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <h4>Frontend Development</h4>
+            <div class="skillbar" style="background-image: linear-gradient(to right, #000 90%, #808080 90%)"></div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <h4>Design</h4>
+            <div class="skillbar" style="background-image: linear-gradient(to right, #000 75%, #808080 75%)"></div>
+          </div>
+        </div>
+        <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <h4>3D Modelling</h4>
+          <div class="skillbar" style="background-image: linear-gradient(to right, #000 65%, #808080 65%)"></div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <h4>Photo Editing</h4>
+          <div class="skillbar" style="background-image: linear-gradient(to right, #000 70%, #808080 70%)"></div>
+        </div>
+      </div>
+        
       </div>
       <div class="carousel-item">
-        <h3>Tab 3</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magni quam, ea, <br>
-          molestiae veniam pariatur ut velit voluptatibus nemo repudiandae rem molestias placeat eveniet, totam impedit optio itaque id iusto.</p>
+       <ul>
+        <li>Great knowledge of Java in terms of object-oriented programming.</li>
+        <li>Good understanding of Javascript for web development.</li>
+        <li>Good knowledge of certain frontend frameworks eg. Bootstrap 5.</li>
+        <li>Great understanding of French.</li>
+       </ul>
       </div>
     </div>
   </div>
+  <button  id="cv-button" onclick="downloadPDF()" data-aos="fade-right" data-aos-delay="5000">Download CV</button>
 </div>
 
 
@@ -101,7 +132,7 @@
 
 <footer class="text-center">
   <div class="container">
-    <img src="/Assets/images/Bf-logo-greenblue.svg" alt="BF Logo" style="width: 5rem;">
+    <img src="/Assets/images/Bf-logo-gb-nb.svg" alt="BF Logo" style="width: 5rem;">
     <p>&copy; BF Media</p>
   </div>
 </footer>
