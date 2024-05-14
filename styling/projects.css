@@ -1,0 +1,15 @@
+/* #card-img{
+    max-height: 300px;
+} */
+
+.card {
+  margin-bottom: 3vh;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu .dropdown-item:focus,
+.dropdown-menu .dropdown-item:hover {
+  background-color: #1effbc;
+  /* color: white;  */
+}
