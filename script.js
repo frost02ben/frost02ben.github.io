@@ -25,3 +25,4 @@ $(document).ready(function() {
     // Programmatically trigger a click event on the anchor element
     anchor.click();
   }
+
