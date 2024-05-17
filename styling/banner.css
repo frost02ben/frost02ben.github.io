@@ -58,3 +58,17 @@
       background-position: right;
     }
   }
+
+  @media (max-width: 600px){
+    .banner-content h1{
+      font-size: 4em;
+    }
+
+    .banner-content p{
+      font-size: 1.5em;
+    }
+
+    #banner-logo{
+      width: 150px;
+    }
+  }
