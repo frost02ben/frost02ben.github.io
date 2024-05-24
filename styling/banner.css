@@ -1,6 +1,10 @@
 .banner{
     margin-top: 3vh;
      border-bottom: 5px solid #1effbc;
+     background-image: url(/Assets/images/Asset\ 1.svg);
+     background-repeat: no-repeat;
+     background-position:bottom right;
+     background-attachment: fixed;
   }
 
   #banner-left{
@@ -9,6 +13,12 @@
   
   #banner-logo{
     width: 200px;
+  }
+
+  #banner-logo:hover {
+    transform: rotate(360deg);
+    perspective: 500px;
+    transition: all 3s linear;
   }
   
   .banner-content{
@@ -34,12 +44,8 @@
   }
 
   #ben-banner{
+    width: 330px;
     transform: scaleX(-1);
-    
-  }
-
-  #ben-banner img{
-    width: 900%;
   }
   
   .banner-content p{
@@ -59,6 +65,7 @@
     }
   }
 
+
   @media (max-width: 600px){
     .banner-content h1{
       font-size: 4em;
@@ -71,4 +78,5 @@
     #banner-logo{
       width: 150px;
     }
+
   }
