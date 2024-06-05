@@ -26,4 +26,13 @@ $(document).ready(function() {
     anchor.click();
   }
 
+  document.getElementById('colorPickerOne').addEventListener('input', function(event) {
+    const newColor = event.target.value;
+    document.documentElement.style.setProperty('--green', newColor);
+  });
+
+  document.getElementById('colorPickerTwo').addEventListener('input', function(event) {
+    const newColor = event.target.value;
+    document.documentElement.style.setProperty('--blue', newColor);
+  });
 

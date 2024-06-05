@@ -2,6 +2,12 @@
 @import url(styling/banner.css);
 @import url(styling/projects.css);
 
+:root{
+  --green: #1effbc;
+  --blue: #2a4c7e;
+  --gradient: linear-gradient(80deg, var(--green), var(--blue));
+}
+
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -55,7 +61,7 @@ footer img {
 }
 
 #home-quote h1 {
-  color: #1effbc;
+  color: var(--green);
   backdrop-filter: blur(10px);
   font-weight: 300;
 }
@@ -78,7 +84,7 @@ footer img {
   animation-timing-function:ease-out;
   margin: 40px 0px;
   height: 10px;
-  background-color: #1effbc;
+  background-color: var(--green);
 }
 
 .cv{
@@ -99,7 +105,7 @@ footer img {
 }
 
 .cv-header-item.active {
-  background-image: linear-gradient(80deg, #2a4c7e , #1effbc );
+  background-image: var(--gradient);
   background-size: 200%;
   animation: gradient 3s infinite alternate;
   color: white;
@@ -117,12 +123,12 @@ footer img {
 
 .blog {
   margin: 2vh auto;
-  border-bottom: 1px solid #1effbc;
+  border-bottom: 1px solid var(--green);
   padding-bottom: 2vh;
 }
 
 #footer-icon{
-  border: 1px solid #1effbc;
+  border: 1px solid var(--green);
   padding: 10px;
   border-radius: 100%;
   margin-top: 3vh;
@@ -130,7 +136,7 @@ footer img {
 }
 
 #footer-icon:hover{
-background-image: linear-gradient(to right, #1effbc, #2a4c7e);
+background-image: var(--gradient);
 animation: gradient 2s infinite alternate;
 transition: background-color 0.3s ease;
 border: none;
@@ -148,7 +154,7 @@ background-size: 200%;
 }
 
 #gradient-button:hover{
-  background-image: linear-gradient(80deg, #2a4c7e , #1effbc );
+  background-image: linear-gradient(80deg, var(--blue) , var(--green) );
   background-size: 200%;
   animation: gradient 3s infinite alternate;
   color: white;

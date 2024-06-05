@@ -1,3 +1,4 @@
+
 /* Ratio for images must be in 684 / 317*/
 
 .project {
@@ -7,7 +8,7 @@
 .project:hover {
   transform: scale(1.02);
   transition: ease 0.1s;
-  border-bottom: 5px solid #1effbc;
+  border-bottom: 5px solid var(--green);
 }
 
 /*  Image styling */
@@ -41,7 +42,7 @@
 }
 
 #project-button:hover {
-  background-image: linear-gradient(80deg, #2a4c7e, #1effbc);
+  background-image: var(--gradient);
   background-size: 200%;
   animation: gradient 3s infinite alternate;
   color: white;
@@ -100,6 +101,6 @@
 
 .featured-project a:hover{
   text-decoration: none;
-  color:#2a4c7e;
+  color:var(--blue);
   font-weight: bold;
 }
