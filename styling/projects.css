@@ -27,7 +27,7 @@
 
 .project:hover .project-img {
   filter: grayscale(0%);
-  transition: ease 1s;
+  transition: ease .5s;
   overflow: hidden;
   zoom: 2.5;
 }

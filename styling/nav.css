@@ -9,10 +9,11 @@
   color: white;
   font-weight: 300;
   letter-spacing: 3px;
+  transition: .3s ease;
 }
 
 .navbar a:hover{
-  transform: translateY(-5px);
+  transform: translateY(-3px);
 }
 
 nav img {
@@ -33,19 +34,6 @@ nav img {
 }
 
 @media (max-width: 575px) {
-  .navbar{
-    background-image: var(--gradient);
-    animation: gradient 3s infinite alternate;   
-  }
-
-  #nav-logo{
-    content: url("/Assets/images/Bf-logo-white.svg");
-  }
-
-  .navbar a{
-    color: #fff !important;
-  }
-
   .navbar a:hover{
     transform: translateX(10px);
   }
