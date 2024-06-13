@@ -14,6 +14,7 @@
 
 .navbar a:hover{
   transform: translateY(-3px);
+  color: white;
 }
 
 nav img {

@@ -31,11 +31,10 @@
 
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-sm fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"
-          ><img src="Assets/images/Bf-logo-gb-nb.svg" alt="BF logo" id="nav-logo"
-        /></a>
+        <img src="Assets/images/Bf-logo-gb-nb.svg" alt="BF logo" id="nav-logo"
+        />
         <button
           class="navbar-toggler"
           type="button"
@@ -53,11 +52,12 @@
               <a class="nav-link" href="#banner-anchor">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="#cv">CV</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/projects.html">Projects</a>
+            </li>
+            
             <li class="nav-item">
               <a class="nav-link" href="/blog.html">Blog</a>
             </li>
@@ -80,12 +80,12 @@
     </div>
 
 
-    <div class="container section" id="about">
+    <div class="container section" id="about" data-aos="zoom-in" data-aos-duration="1000">
       <div class="row">
         <div class="col">
           <img src="/Assets/images/IMG_0451.jpeg" />
         </div>
-        <div class="col-lg-6 about-text" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="col-lg-6 about-text" >
           <h1 style="margin-top: 0px;">
             ABOUT ME
           </h1>
@@ -93,12 +93,9 @@
           <p>
             My name is Ben Frost, and I am a Computer Science student,
             specialising in spatial computing. <br />
-            I like to focus on frontend development and design, while also
-            working in 3D environments and photo / video editing.
           </p>
           <p>
-            I am currently studying in TUS, on course to complete my Bachelors
-            of Science in Immersive Digital Media & Spatial computing in 2025.
+            I built this website to showcase my skills and projects. It serves as an ongoing project which I am constantly updating and testing new ideas on.
           </p>
           <p>
             Outside of work and studies, I enjoy watching and playing soccer,
@@ -109,54 +106,55 @@
     </div>
 
 
-    <div class="container section projects">
-
-<div class="featured-project" style="padding: 50px 0;">
-  <div class="row">
-    <div class="col order-2 order-lg-1">
-      <h1>Featured Project</h1>
-      <h2>JavaScript Animation</h2>
-      <p>Check out this interesting animation I made using the p5.js library.<br>
-      I used JavaScript to for this object-oriented mini project. Edit the code yourself using the <a href="https://editor.p5js.org/benfrost.svg/sketches/QjOicUdB7" target="_blank">editor</a>.</p>
-      <a href="https://editor.p5js.org/benfrost.svg/full/QjOicUdB7" target="_blank"><button id="project-button">View</button></a>
-    </div>
-    <div class="col-lg-4 order-1 order-lg-2">
-      <img src="/Assets/images/pf-thumbnail.JPG" alt="">
-    </div>
+    <div class="container section ">
+      <div class="featured-project"  data-aos="zoom-in" data-aos-duration="1000">
+        <div class="row">
+          <div class="col order-2 order-lg-1">
+            <h1>Featured Project</h1>
+            <h2>JavaScript Animation</h2>
+            <p>Check out this interesting animation I made using the p5.js library.<br>
+            I used JavaScript to for this object-oriented mini project. Edit the code yourself using the <a href="https://editor.p5js.org/benfrost.svg/sketches/QjOicUdB7" target="_blank">editor</a>.</p>
+            <a href="https://editor.p5js.org/benfrost.svg/full/QjOicUdB7" target="_blank"><button id="project-button">View</button></a>
+          </div>
+          <div class="col-lg-4 order-1 order-lg-2">
+            <img src="/Assets/images/pf-thumbnail.JPG" alt="">
+          </div>
+        </div>
+      </div>
   </div>
-</div>
-</div>
 
 
     <div class="container-fluid section" id="home-quote">
-      <p data-aos="zoom-in">
+      <p  data-aos="zoom-in" data-aos-duration="1000">
         "It needs time. Nobody wants to hear it, but that's the truth: if you
         want to have success in the future, you have to be ready to work now."
       </p>
-      <h1 data-aos="flip-up">- Jurgen Klopp</h1>
+      <h1  data-aos="zoom-in" data-aos-duration="1000">- Jurgen Klopp</h1>
     </div>
 
-    <div class="container section" id="cv">
-      <h1>CV</h1>
+    <div class="container section" id="cv" >
+      <h1 data-aos="fade-right" data-aos-duration="1000">CV</h1>
         <div class="linebreak"></div>
       <div class="row">
-        <div class="col-lg-5" id="cv-col">
+        <div class="col-lg-5" id="cv-col" data-aos="fade-right" data-aos-duration="1000">
           <div class="sub">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nihil exercitationem cumque eligendi temporibus?
-             Necessitatibus vitae vero iure perferendis libero earum repudiandae doloremque neque obcaecati.</p>
-             <a href="https://frost02ben.github.io/Calculator/" target="_blank"><button id="gradient-button">Download CV</button></a>
+            <p>I am currently studying in TUS, on course to complete my Bachelors
+              of Science in Immersive Digital Media & Spatial computing in 2025.<br>I like to focus on frontend development and design, while also
+              working in 3D environments and photo / video editing.
+              </p>
+             <a onclick="downloadPDF()" target="_blank"><button id="gradient-button">Download CV</button></a>
           </div>
           
         </div>
 
         <div class="col-lg-4" id="cv-col">
-          <div class="sub">
+          <div class="sub" data-aos="flip-right"  data-aos-delay="1000" date-aos-duration="3000">
             <h2>Education</h2>
           <h4><li>TUS, 2021 - 2025</li></h4>
-          <p>BSc in Interactive Digital Media & SPatial Computing</p>
+          <p>BSc in Interactive Digital Media & Spatial Computing</p>
           </div>
           
-          <div class="sub">
+          <div class="sub" data-aos="flip-right"  data-aos-delay="1200" date-aos-duration="3000">
             <h2>Experience</h2>
           <h4><li>Fleming Medical, 2024</li></h4>
           <p>Internship in Marketing, focusing in Web Development</p>
@@ -165,7 +163,7 @@
         </div>
 
         <div class="col-lg-3" id="cv-col">
-          <div class="sub">
+          <div class="sub" data-aos="flip-right"  data-aos-delay="1400" date-aos-duration="3000">
             <h2>Skills</h2>
             <ul>
               <li>Front-End Development</li>
@@ -175,7 +173,7 @@
             </ul>
           </div>
 
-          <div class="sub" id="fab">
+          <div class="sub" id="fab" data-aos="flip-right"  data-aos-delay="1600" date-aos-duration="3000">
             <h2>Other</h2>
             <i class="fab fa-html5" style="color: #e34f26"></i>
             <i class="fab fa-css3-alt icon css-icon" style="color: #1572b6"></i>
@@ -201,7 +199,7 @@
         <div class="row">
           <div class="col">
             <a href="https://github.com/frost02ben" target="_blank"
-              ><i class="fab fa-github fa-2x" id="footer-icon" ></i
+              ><i class="fab fa-github fa-2x" ></i
             ></a>
           </div>
           <div class="col">
@@ -213,7 +211,7 @@
           </div>
           <div class="col">
             <a href="https://www.instagram.com/ben02frost/" target="_blank"
-              ><i class="fab fa-instagram fa-2x" id="footer-icon"></i
+              ><i class="fab fa-instagram fa-2x"></i
             ></a>
           </div>
         </div>

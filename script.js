@@ -1,14 +1,5 @@
 AOS.init();
 
-$(document).ready(function() {
-    $('#cv').on('slide.bs.carousel', function (e) {
-
-      $('.cv-header-item').removeClass('active');
-
-      $('.cv-header-item[data-bs-slide-to="' + e.to + '"]').addClass('active');
-    });
-  });
-
   function downloadPDF() {
     var pdfUrl = '/Assets/documents/ben-frost-cv.pdf';   
     var anchor = document.createElement('a');
