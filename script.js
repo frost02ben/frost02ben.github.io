@@ -46,14 +46,14 @@ function applyDarkMode(isDarkMode) {
   const text = darkBtn.querySelector('span'); 
 
   if (isDarkMode) {
-    setbgColor('#2b2b2b'); // Dark background color
-    setfontColor('#fff'); // Light font color
+    setbgColor('#1b1b1b'); 
+    setfontColor('#fff'); 
     icon.classList.remove('fa-moon');
     icon.classList.add('fa-sun');
     text.textContent = 'Light Mode';
   } else {
-    setbgColor('#fff'); // Default background color
-    setfontColor('#000'); // Default font color
+    setbgColor('#fff'); 
+    setfontColor('#000'); 
     icon.classList.remove('fa-sun');
     icon.classList.add('fa-moon');
     text.textContent = 'Dark Mode';
@@ -66,10 +66,8 @@ function toggleDarkMode() {
   applyDarkMode(!isDarkMode);
 }
 
-// Event listener for the button
 document.getElementById('dark-btn').addEventListener('click', toggleDarkMode);
 
-// Apply the stored mode on page load
 window.addEventListener('DOMContentLoaded', (event) => {
   const isDarkMode = localStorage.getItem('isDarkMode') === 'true';
   applyDarkMode(isDarkMode);
