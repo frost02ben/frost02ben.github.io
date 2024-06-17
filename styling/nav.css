@@ -5,14 +5,14 @@
   transition: background-color 1s ease;
 }
 
-.navbar a {
+.nav-link{
   color: white;
   font-weight: 300;
   letter-spacing: 3px;
   transition: .3s ease;
 }
 
-.navbar a:hover{
+.nav-link:hover{
   transform: translateY(-3px);
   color: white;
 }
@@ -22,11 +22,11 @@ nav img {
 }
 
 .scrolled-bg{
-  background-color: #fff !important; /* Change to your desired color */
+  background-color: var(--bg-color) !important; /* Change to your desired color */
 }
 
 .scrolled-font{
-  color: black !important;
+  color: var(--font-color) !important;
 }
 
 #nav-alt{

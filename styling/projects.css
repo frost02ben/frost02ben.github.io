@@ -35,7 +35,8 @@
 /*  Button styling */
 
 #project-button {
-  border: 1px solid black;
+  border: 1px solid var(--font-color);
+  color: var(--font-color);
   padding: 5px 15px;
   border-radius: 50px;
   background-color: transparent;
@@ -45,8 +46,8 @@
   background-image: var(--gradient);
   background-size: 200%;
   animation: gradient 3s infinite alternate;
-  color: white;
-  border: 1px solid white;
+  color: var(--bg-color);
+  border: 1px solid var(--bg-color);
 }
 
 /* Text styling */
@@ -95,7 +96,7 @@
 
 .featured-project a{
   text-decoration: none;
-  color:#1effbc;
+  color: var(--green);
   font-weight: bold;
 }
 
