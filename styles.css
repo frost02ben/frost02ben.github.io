@@ -46,7 +46,7 @@ h2{
 }
 
 #about img{
-  width: clamp(400px, 25vw, 20vw);
+  width: clamp(350px, 25vw, 20vw);
   margin: 0 auto 20px auto;
 }
 

@@ -3,10 +3,12 @@
 
 .project {
   margin: 3vh 0;
+  overflow: hidden;
+  border-bottom: 5px solid transparent;
 }
 
 .project:hover {
-  transform: scale(1.02);
+  /* transform: scale(1.02); */
   transition: ease 0.1s;
   border-bottom: 5px solid var(--green);
 }
@@ -29,7 +31,7 @@
   filter: grayscale(0%);
   transition: ease .5s;
   overflow: hidden;
-  zoom: 2.5;
+  transform: scale(1.05);
 }
 
 /*  Button styling */
@@ -69,23 +71,24 @@
 }
 
 
-.project-description {
+/* .project-description {
   display: none;
 }
 .project:hover .project-description {
   display: block;
   transition: ease-in-out 2s;
-}
+} */
 
 
 /* Featured project */
 .featured-project{
   margin: 3vw 0;
+  
 }
 
 .featured-project img{
-  width: clamp(300px, 60%, 500px);
-  margin-bottom: 3vh;;
+  width: 350px;
+  margin-bottom: 3vh;
 }
 
 .featured-project h1,
@@ -105,3 +108,5 @@
   color:var(--blue);
   font-weight: bold;
 }
+
+
