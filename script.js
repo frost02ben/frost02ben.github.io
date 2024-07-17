@@ -47,13 +47,13 @@ function applyDarkMode(isDarkMode) {
 
   if (isDarkMode) {
     setbgColor('#1b1b1b'); 
-    setfontColor('#fff'); 
+    setfontColor('#f5f5f5'); 
     icon.classList.remove('fa-moon');
     icon.classList.add('fa-sun');
     text.textContent = 'Light Mode';
   } else {
-    setbgColor('#fff'); 
-    setfontColor('#000'); 
+    setbgColor('#f5f5f5'); 
+    setfontColor('#1b1b1b'); 
     icon.classList.remove('fa-sun');
     icon.classList.add('fa-moon');
     text.textContent = 'Dark Mode';

@@ -4,7 +4,7 @@
 .project {
   margin: 3vh 0;
   overflow: hidden;
-  border-bottom: 5px solid transparent;
+  border-bottom: 5px solid var(--bg-color);
 }
 
 .project:hover {
