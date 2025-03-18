@@ -1,11 +1,11 @@
 AOS.init();
 
   function downloadPDF() {
-    var pdfUrl = '/Assets/documents/ben-frost-cv.pdf';   
+    var pdfUrl = '/Assets/documents/benfrost-cv-new.pdf';   
     var anchor = document.createElement('a');
   
     anchor.href = pdfUrl;
-    anchor.download = 'ben-frost-cv.pdf';
+    anchor.download = 'benfrost-cv-new.pdf';
     anchor.click();
   }
 
